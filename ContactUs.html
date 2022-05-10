@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.K. Exports</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="icon" href="./logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            <a href="./index.html">
+                <h3 class="nav__heading">A.K. Exports</h3>
+            </a>
+        </div>
+        <div class="nav-items">
+            <li class="navItems"><a href="./index.html">Home</a></li>
+            <li class="navItems"><a href="./index.html#aboutus" id="aboutUs">About Us</a></li>
+            <li class="navItems"><a href="./Ourproducts.html">Our Products</a></li>
+            <li class="navItems"><a href="#">Contact Us</a></li>
+        </div>
+        <div class="search-icon">
+
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+
+    </nav>
+    <div class="content">
+        <div class="titleee">
+            <div class="dtable">
+                <div class="dtable-cells">
+                    <div class="container">
+                        <h2 class="heading">Contact Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contactus">
+        <div class="contactDetails">
+            <div class="contactCard mail">
+                <div class="CCicon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="CCInfo">
+                    <h3>Mail Here</h3>
+                    <span>akexports770@gmail.com</span>
+                </div>
+            </div>
+            <div class="contactCard location">
+                <div class="CCicon">
+                    <i id="icon" class="fas fa-map-marker-alt"></i>
+
+                </div>
+                <div class="CCInfo">
+                    <h3>Visit Here</h3>
+                    <span>Mamu Bhanja,Railway Road, Aligarh</span>
+                </div>
+            </div>
+            <div class="contactCard phone">
+                <div class="CCicon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="CCInfo">
+                    <h3>Call Here</h3>
+                    <span>+91 7417988938</span>
+                </div>
+            </div>
+        </div>
+        <h1>Get in Touch</h1>
+        <div class="contact__form">
+            <form id="contactForm" action="forms/form.php" method="POST" onsubmit="return formValidate()">
+                <div class="nameEmail">
+                    <input id="name" name="name" required type="text" placeholder="Name*" />
+                    <div id="nameerror"></div>
+                    <input id="email" name="email" required type="email" name="" id="" placeholder="Email*" />
+                    <div id="errmail"></div>
+                </div>
+                <div class="phoneSubject">
+                    <input id="number" name="number" required type="number" placeholder="Phone" />
+                    <div id="inmobile"></div>
+                    <input id="subject" name="subject" required type="text" name="" id="" placeholder="Subject" />
+                    <div id="subjecterror"></div>
+                </div>
+                <div class="message">
+                    <textarea id="msg" required name="msg" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div id="msgerror"></div>
+                </div>
+                <button class="btn__submit" name="formSubmit" type="submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="cards"></div>
+    <!-- ********************************FOOTER************************************** -->
+    <div class="footer__main">
+        <div class="footer">
+            <div class="footer__description">
+                <div class="description__logo">
+                    <img src="./assets/images/logo.png" alt="" />
+                </div>
+                <div class="description__text">
+                    We are an independent family jeweller with over 100 years' experience and expertise in
+                    the beautiful world of jewellery. We are passionate about offering the highest quality of service,
+                    and our wealth of knowledge guarantees you and your precious jewellery will be exceptionally cared
+                    for.
+                </div>
+
+            </div>
+            <div class="footer__explore">
+                <h3>Explore</h3>
+                <ul>
+                    <li>
+                        <a class="black" href="./index.html">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="black"><a class="black" href="index.html#aboutus">About Us</a></li>
+
+                    <li>
+                        <a class="black" href="./Ourproducts.html">
+                            <span>Our Products</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="black" href="./ContactUs.html">
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__getintouch">
+                <h3 style="margin-right: 11rem;">Get in Touch</h3>
+                <ul style="margin-bottom: 40px;">
+                    <li style="margin-top: 20px;">
+                        <i>
+                            <FaHome />
+                            <i id="icon" style="font-size: 25px; margin-right: 5px;" class="fas fa-map-marker-alt"></i>
+                        </i>
+                        <span>
+                            Mamu Bhanja,Railway Road, Aligarh
+                        </span>
+                    </li>
+                    <li style="margin-top: 20px;">
+                        <i style="font-size: 25px; margin-right: 5px;" class="fas fa-phone-alt"></i>
+                        <span>+91 7417988938</span>
+                    </li>
+                    <li style="margin-top: 20px;">
+                        <i>
+                            <i style="font-size: 25px; margin-right: 5px;" class="fas fa-envelope"></i>
+                        </i>
+                        <span>akexports770@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__quicklinks">
+                <h3>Follow Us</h3>
+                <ul style="display: flex;margin: 45px 0px;flex-direction: column;">
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                        <a style="color:black"
+                            href="https://www.instagram.com/invites/contact/?i=1kkm88ml3oh6x&utm_content=m4ha5iv"
+                            target="blank">
+                            <p>Follow us on Instagram</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="color: black; display: flex;" href="https://www.linkedin.com/in/ak-exports-01a369215"
+                            target="blank">
+                            <i class="fab fa-linkedin"></i>
+                            <p>Visit our Linkedin Page</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <span>© Copyright A.K. exports. All Rights Reserved</span>
+        </div>
+    </div>
+
+    <script type="" src="assets/js/script.js"></script>
+    <script src="assets/js/Form.js"></script>
+</body>
+
+</html>
